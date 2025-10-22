@@ -9,7 +9,18 @@ function App() {
 }
 
 const SAMPLE_FLASCARDS = [
-
+  {
+    id: 1,
+    question: 'What is 2 + 2?',
+    answer: '4',
+    options: [
+      '2',
+      '3',
+      '4',
+      '5'
+    ]
+  },
+  
 ]
 
 export default App
